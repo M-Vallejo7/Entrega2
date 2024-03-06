@@ -24,7 +24,7 @@
                 android:textSize="24sp"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:textColor="#6200EE"/>
+                android:textColor="#008CB9"/>
         </LinearLayout>
 
         <LinearLayout
@@ -34,7 +34,7 @@
             android:padding="16dp">
 
             <EditText
-                android:id="@+id/txtnum"
+                android:id="@+id/txtnumero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="12dp"
@@ -46,11 +46,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_calcular_raiz"
-                android:backgroundTint="#BB86FC"
+                android:backgroundTint="#008CB9"
                 android:layout_marginTop="16dp"/>
 
             <TextView
-                android:id="@+id/lblresultado_raiz"
+                android:id="@+id/lblresultadoraiz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"

@@ -18,9 +18,9 @@ public class raizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_raiz);
 
-        EditText numero = findViewById(R.id.txtnum);
+        EditText numero = findViewById(R.id.txtnumero);
         Button calcularraiz = findViewById(R.id.btncalcularraiz);
-        TextView resultadoraiz = findViewById(R.id.lblresultado_raiz);
+        TextView resultadoraiz = findViewById(R.id.lblresultadoraiz);
 
         calcularraiz.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -37,6 +37,5 @@ public class raizActivity extends AppCompatActivity {
                     }
             }
         });
-
     }
 }
