@@ -23,7 +23,7 @@ public class perimetroActivity extends AppCompatActivity {
         EditText lado2 = findViewById(R.id.txtlado2);
         EditText lado3 = findViewById(R.id.txtlado3);
         Button calcularperimetro = findViewById(R.id.btncalcularperimetro);
-        TextView resultado = findViewById(R.id.lblresultadoperimetro);
+        TextView resultado = findViewById(R.id.lbladvertenciaperimetro);
 
         calcularperimetro.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -40,7 +40,7 @@ public class perimetroActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else {
-                        resultado.setText("Ingrese las longitudes de cada lado del triángulo.");
+                        resultado.setText("Por favor, ingrese las longitudes de cada lado del triángulo para hacer el cálculo.");
                     }
             }
         });

@@ -20,7 +20,7 @@ public class raizActivity extends AppCompatActivity {
 
         EditText numero = findViewById(R.id.txtnumero);
         Button calcularraiz = findViewById(R.id.btncalcularraiz);
-        TextView resultadoraiz = findViewById(R.id.lblresultadoraiz);
+        TextView resultadoraiz = findViewById(R.id.lbladvertenciaraiz);
 
         calcularraiz.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class raizActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else {
-                        resultadoraiz.setText("Ingrese un número para sacar su raíz.");
+                        resultadoraiz.setText("Por favor, ingrese un número para sacar su raíz.");
                     }
             }
         });
