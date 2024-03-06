@@ -20,6 +20,6 @@ public class animationActivity extends AppCompatActivity{
                 startActivity(new Intent(animationActivity.this,MainActivity.class));
                 finish();
             }
-        }, 5000);
+        }, 8000);
     }
 }

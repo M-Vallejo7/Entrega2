@@ -21,10 +21,10 @@ public class senoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_seno);
 
         angulo_seno = findViewById(R.id.txtanguloseno);
-        grados = findViewById(R.id.radbtngrados);
-        radianes = findViewById(R.id.radbtnradianes);
+        grados = findViewById(R.id.optiongradosseno);
+        radianes = findViewById(R.id.optionradianesseno);
         calcular = findViewById(R.id.btncalcularseno);
-        resultado = findViewById(R.id.lblresultadoseno);
+        resultado = findViewById(R.id.lbladvertenciaseno);
 
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override

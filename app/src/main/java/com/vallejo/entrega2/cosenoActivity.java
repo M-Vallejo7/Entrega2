@@ -22,10 +22,10 @@ public class cosenoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_coseno);
 
         angulo_coseno = findViewById(R.id.txtangulocoseno);
-        calcular_coseno = findViewById(R.id.btncalcular_coseno);
-        resultado = findViewById(R.id.lblresultadocoseno);
-        radio_grados = findViewById(R.id.gradoscoseno);
-        radio_radianes = findViewById(R.id.radianescoseno);
+        calcular_coseno = findViewById(R.id.btncalcularcoseno);
+        resultado = findViewById(R.id.lbladvertenciacoseno);
+        radio_grados = findViewById(R.id.optiongradoscoseno);
+        radio_radianes = findViewById(R.id.optionradianescoseno);
 
         calcular_coseno.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -39,7 +39,7 @@ public class cosenoActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else {
-                    resultado.setText("Ingresa un ángulo.");
+                    resultado.setText("Ingresa un ángulo para poder continuar.");
                 }
             }
         });

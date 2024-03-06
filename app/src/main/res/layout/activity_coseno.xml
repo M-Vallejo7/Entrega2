@@ -18,13 +18,13 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/lbltitulocoseno"
+                android:id="@+id/titulocoseno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
                 android:text="@string/btn_calcular_coseno"
-                android:textColor="#6200EE"
+                android:textColor="#008CB9"
                 android:textSize="24sp" />
         </LinearLayout>
 
@@ -48,29 +48,29 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/gradoscoseno"
+                    android:id="@+id/optiongradoscoseno"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/grados_coseno"
                     android:checked="true"/>
 
                 <RadioButton
-                    android:id="@+id/radianescoseno"
+                    android:id="@+id/optionradianescoseno"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/radianes_coseno"/>
             </RadioGroup>
 
             <Button
-                android:id="@+id/btncalcular_coseno"
+                android:id="@+id/btncalcularcoseno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_calcular_coseno"
-                android:backgroundTint="#BB86FC"
+                android:backgroundTint="#008CB9"
                 android:layout_marginTop="16dp"/>
 
             <TextView
-                android:id="@+id/lblresultadocoseno"
+                android:id="@+id/lbladvertenciacoseno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
